@@ -1,10 +1,10 @@
-title: Stackbit Starter Theme
+title: audieaux
 baseurl: /
 permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
-description: An ultra customizable generic theme for Stackbit
+description: for people who love local music
 header:
   title: Starter
   has_nav: true
@@ -47,16 +47,12 @@ footer:
       url: 'https://www.linkedin.com/'
       style: link
       new_window: true
-  content: '&copy; Stackbit-Starter. All rights reserved.'
-  links:
-    - label: Made with Stackbit.
-      url: 'https://www.stackbit.com'
-      style: link
-      new_window: true
+  content: '&copy; audieaux - all rights reserved.'
 sass:
   indentWidth: 4
   style: compressed
   precision: 10
+markdown: kramdown
 plugins:
   - jekyll-menus
 exclude:
